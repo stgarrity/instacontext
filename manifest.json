@@ -15,5 +15,6 @@
   "permissions": [
     "contextMenus",
     "https://www.instapaper.com/api/add"
-  ]
+  ],
+  "update_url": "http://g7g.org/instachrome/updates.xml"
 }
