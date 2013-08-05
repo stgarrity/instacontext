@@ -1,14 +1,15 @@
 {
   "name": "InstaChrome",
-  "version": "0.0.0.1",
+  "version": "0.1.0.0",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"]
   },
   "options_page": "options.html",
   "icons": {
-    "16": "favicon.ico",
-    "48": "favicon.ico"
+    "16": "icons/favicon.ico",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
   },
   "permissions": [
     "contextMenus",
