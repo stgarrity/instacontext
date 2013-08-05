@@ -1,5 +1,5 @@
 {
-  "name": "InstaChrome",
+  "name": "InstaContext",
   "description": "Right-click context menu option to save a link to Instapaper",
   "version": "0.1.0.0",
   "manifest_version": 2,
@@ -15,6 +15,5 @@
   "permissions": [
     "contextMenus",
     "https://www.instapaper.com/api/add"
-  ],
-  "update_url": "http://g7g.org/instachrome/updates.xml"
+  ]
 }
