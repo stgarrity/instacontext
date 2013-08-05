@@ -2,10 +2,11 @@ Author: Steve Garrity (sgarrity@gmail.com)
 License: MIT
 
 Simple context-menu extension to let you save links (instead of just the current tab) 
-to Instapaper directly. Yay Instapaper.
+to Instapaper directly. Yay Instapaper. To be clear, I'm not affiliated with Instapaper,
+I'm just a fan!
 
-Note that this saves your Instapaper credentials in HTML5 Local Storage. This 
-isn't perfect, but it's Instapaper, so I'm not currently worrying about it. ;)
+Note that this saves your Instapaper credentials (in the clear) in HTML5 Local Storage. 
+This isn't perfect, but it's Instapaper, so I'm not currently worrying about it. ;)
 
 Credit to http://paul.kinlan.me/chrome-extension-adding-context-menus/ for 
 the getting-started tutorial (it's a bit out of date since manifest_version 2,
