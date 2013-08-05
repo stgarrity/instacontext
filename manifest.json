@@ -1,0 +1,20 @@
+{
+  "name": "InstaChrome",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico"
+  },
+  "permissions": [
+    "contextMenus",
+    "https://www.instapaper.com/api/add"
+  ]
+}
+
+// README extensions icon
+// README options style page
