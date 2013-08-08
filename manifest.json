@@ -1,7 +1,7 @@
 {
   "name": "InstaContext",
   "description": "Right-click context menu option to save a link to Instapaper",
-  "version": "0.1.0.0",
+  "version": "0.1.1.0",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"]
