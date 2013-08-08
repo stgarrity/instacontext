@@ -1,20 +1,22 @@
-      var load = function () {
-        var username = localStorage["username"];
-        if (username) {
-          document.getElementById("username").value = username;
-        }
+var load = function () {
+    var username = localStorage["username"];
+    if (username) {
+	document.getElementById("username").value = username;
+    }
 
-        var password = localStorage["password"];
-        if (password) {
-          document.getElementById("password").value = password
-        }
+    var password = localStorage["password"];
+    if (password) {
+	document.getElementById("password").value = password
+    }
+    
+};
 
-      };
+var save_opts = function () {
+    localStorage["username"] = document.getElementById("username").value;
+    localStorage["password"] = document.getElementById("password").value;
 
-      var save_opts = function () {
-        localStorage["username"] = document.getElementById("username").value;
-        localStorage["password"] = document.getElementById("password").value;
-      };
+    alert("Saved!");
+};
 
-      load();
-      document.querySelector("#save").addEventListener('click', save_opts);
+load();
+document.querySelector("#save").addEventListener('click', save_opts);
