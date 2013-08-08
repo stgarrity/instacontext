@@ -4,6 +4,11 @@ var contextHandler = function (data) {
     var username = localStorage["username"];
     var password = localStorage["password"];
 
+    if (!username) {
+	alert("Please configure your username in Extensions -> InstaContext -> Options");
+	return;
+    }
+
     var url = "https://www.instapaper.com/api/add?username=";
     url += username + "&password=" + password + "&url=";
 
